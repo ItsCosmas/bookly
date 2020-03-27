@@ -1,0 +1,17 @@
+@import '../../scss/mixins';
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 5rem;
+
+	@include respond(tablet) {
+		padding: 2rem;
+	}
+
+	&--link {
+		color: var(--color-primary);
+	}
+}
