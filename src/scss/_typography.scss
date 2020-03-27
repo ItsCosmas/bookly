@@ -25,6 +25,10 @@ body {
 		font-weight: 700;
 		line-height: 1.2;
 		font-size: 2.5rem;
+
+		@include respond(tablet) {
+			font-size: 2rem;
+		}
 	}
 	&--primary {
 		font-family: var(--open-sans-font);
@@ -40,10 +44,18 @@ body {
 		font-family: var(--open-sans-font);
 		font-weight: 700;
 		font-size: 2.5rem;
+
+		@include respond(tablet) {
+			font-size: 2rem;
+		}
 	}
 	&--navigation {
 		font-size: 2rem;
 		font-weight: 600;
+
+		@include respond(tablet) {
+			font-size: 1.8rem;
+		}
 	}
 
 	// Text Colors

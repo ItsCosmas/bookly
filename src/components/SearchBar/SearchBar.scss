@@ -1,3 +1,4 @@
+@import '../../scss/mixins';
 .searchbar {
 	flex: 0 0 40%;
 
@@ -5,9 +6,9 @@
 	align-items: center;
 	justify-content: center;
 
-	// @include respond(tablet) {
-	// 	display: none;
-	// }
+	@include respond(tablet) {
+		flex: 0 0 50%;
+	}
 
 	&__input {
 		font-family: inherit;
@@ -20,6 +21,10 @@
 		width: 90%;
 		transition: all 0.2s;
 		margin-right: -3.25rem;
+
+		@include respond(tablet) {
+			width: 100%;
+		}
 
 		&:focus {
 			outline: none;

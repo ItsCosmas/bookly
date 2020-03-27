@@ -1,5 +1,10 @@
+@import '../scss/mixins';
 .book {
 	padding: 5rem;
+
+	@include respond(tablet) {
+		padding: 1rem 0.5rem;
+	}
 
 	display: flex;
 	flex-direction: column;
@@ -11,10 +16,18 @@
 		flex-direction: row;
 
 		justify-content: center;
+
+		@include respond(tablet) {
+			flex-direction: column;
+		}
 	}
 
 	&__info {
 		padding: 1rem 2rem;
+
+		@include respond(tablet) {
+			padding: 1rem 0.5rem;
+		}
 	}
 
 	&__figure {
@@ -45,5 +58,15 @@
 
 	& > :not(:first-child) {
 		margin-left: 5rem;
+
+		@include respond(tablet) {
+			margin-left: 0;
+		}
+	}
+
+	@include respond(tablet) {
+		flex-direction: column;
+
+		align-items: flex-start;
 	}
 }
