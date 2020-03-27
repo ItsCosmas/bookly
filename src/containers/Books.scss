@@ -1,0 +1,10 @@
+.books {
+	border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+
+	padding: 2rem;
+
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 3rem;
+	grid-auto-rows: 1fr;
+}

@@ -1,30 +1,15 @@
 // Variables
-@import 'variables';
+@import 'scss/variables';
 
 // mixins
-@import 'mixins';
+@import 'scss/mixins';
 
 // utilities
-@import 'utilities';
+@import 'scss/utilities';
 
 // base
-@import 'base';
-@import 'typography';
+@import 'scss/base';
+@import 'scss/typography';
 
-// // components
-// @import 'components/hamburger';
-// @import 'components/button';
-// @import 'components/blog';
-// @import 'components/article';
-// @import 'components/searchbar';
-
-// // layout
-// @import 'layout/navigation';
-// @import 'layout/jumbotron';
-// @import 'layout/services';
-// @import 'layout/footer';
-// // @import 'layout/hype';
-// // @import 'layout/blog';
-
-// // Page Shared Styles
-// @import 'pages/home.scss';
+// components
+@import 'scss/components';

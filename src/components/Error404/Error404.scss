@@ -1,0 +1,18 @@
+@import '../../scss/mixins';
+.error404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+
+	min-height: 50vh;
+
+	&--figure {
+		display: flex;
+		justify-content: center;
+	}
+	&--img {
+		@include ResponsiveImage();
+	}
+}

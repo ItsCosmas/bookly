@@ -1,0 +1,49 @@
+.book {
+	padding: 5rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__container {
+		display: flex;
+		flex-direction: row;
+
+		justify-content: center;
+	}
+
+	&__info {
+		padding: 1rem 2rem;
+	}
+
+	&__figure {
+		height: 30rem;
+		text-align: center;
+		padding: 1rem;
+	}
+	&__img {
+		// @include ResponsiveImage();
+		height: 100%;
+		width: auto;
+	}
+}
+
+.flex__column {
+	display: flex;
+	flex-direction: column;
+
+	& > * {
+		margin-top: 1rem;
+	}
+}
+
+.flex__row {
+	display: flex;
+
+	align-items: center;
+
+	& > :not(:first-child) {
+		margin-left: 5rem;
+	}
+}

@@ -1,0 +1,24 @@
+// --------------------- animations -------------------------- //
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.spinner-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.spinner {
+	width: 10rem;
+	height: 10rem;
+
+	animation: spin infinite 1s linear;
+	// height: 40vmin;
+	pointer-events: none;
+}
