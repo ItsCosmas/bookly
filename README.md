@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b72655d5-6a4c-4f3d-99a0-a09160136e1f/deploy-status)](https://app.netlify.com/sites/bookly-app/deploys)
