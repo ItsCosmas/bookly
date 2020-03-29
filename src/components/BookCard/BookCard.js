@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './BookCard.scss';
 
-import default_thumbnail from '../../assets/book.jpeg';
+import default_thumbnail from '../../assets/no_image.png';
 
 function BookCard(props) {
 	let { title, imageLinks, authors } = props.book;
