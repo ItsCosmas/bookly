@@ -6,7 +6,7 @@ import './Book.scss';
 
 import Spinner from '../components/Spinner/Spinner';
 
-import default_thumbnail from '../assets/book.jpeg';
+import default_thumbnail from '../assets/no_img.png';
 
 import sprite from '../assets/icons/sprite.svg';
 
