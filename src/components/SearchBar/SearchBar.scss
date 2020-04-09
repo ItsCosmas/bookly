@@ -4,10 +4,9 @@
 
 	display: flex;
 	align-items: center;
-	justify-content: center;
 
 	@include respond(tablet) {
-		flex: 0 0 50%;
+		flex: 0 0 60%;
 	}
 
 	&__input {
