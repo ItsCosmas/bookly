@@ -11,9 +11,16 @@ function About() {
 			</p>
 			<p className='text--grey u-margin-top-small'>
 				Open Source and available on github at:{' '}
-				<span className='about--link'>
-					https://github.com/ItsCosmas/bookly
-				</span>
+				
+				<a
+					href={`https://github.com/ItsCosmas/bookly`}
+					target={'_blank'}
+					rel='noopener noreferrer'
+					className={'social__list--link'}>
+					<span className='about--link'>
+						https://github.com/ItsCosmas/bookly
+					</span>
+				</a>
 			</p>
 		</div>
 	);
