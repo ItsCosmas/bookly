@@ -16,7 +16,7 @@ function About() {
 					href={`https://github.com/ItsCosmas/bookly`}
 					target={'_blank'}
 					rel='noopener noreferrer'
-					className={'social__list--link'}>
+					className={'about--link'}>
 					<span className='about--link'>
 						https://github.com/ItsCosmas/bookly
 					</span>
