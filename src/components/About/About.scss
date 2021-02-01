@@ -12,6 +12,7 @@
 	}
 
 	&--link {
+		@include ResetLink();
 		color: var(--color-primary);
 	}
 }
